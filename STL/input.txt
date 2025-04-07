@@ -1,5 +1,2 @@
 4
-karim 3
-mizan 5
-habib 7
-raihan 9
+7 8 2 1
