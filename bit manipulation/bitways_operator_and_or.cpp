@@ -5,9 +5,11 @@ int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int a =5,b=14;
-    cout<<(a & b)<<endl;   
+    int a =5,b=14,c=21;
+    cout<<(a & b &c)<<endl;   
     cout<<(a | b)<<endl;
+    cout<<(a^b)<<endl;
+
     return 0;
 }
 
