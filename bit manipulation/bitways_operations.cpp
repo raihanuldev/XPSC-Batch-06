@@ -16,10 +16,15 @@ void print_bits_status(int n){
     }
 }
 
+int trun_on_kth_bit(int n,int k){
+    return (n|(1<<k));
+}
+
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    print_bits_status(45);
+    // print_bits_status(45);
+    cout<<trun_on_kth_bit(45,4);
     return 0;
 }
