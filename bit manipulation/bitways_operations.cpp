@@ -22,13 +22,16 @@ int trun_on_kth_bit(int n,int k){
 int turn_off_kth_bit(int n,int k){
     return (n&(~(1<<k)));
 }
-
+int toggle_kth_bit(int n,int k){
+    return (n^(1<<k));
+}
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     // print_bits_status(45);
     // cout<<trun_on_kth_bit(45,4);
-    cout<<turn_off_kth_bit(45,2);  
+    // cout<<turn_off_kth_bit(45,2);  
+    cout<<toggle_kth_bit(45,1);
     return 0;
 }
