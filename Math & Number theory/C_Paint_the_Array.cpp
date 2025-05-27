@@ -15,7 +15,7 @@ int main()
             cin>>a[i];
         }
         long long g1=0,g2=0;
-        for(int i=0;i<n;i+2){
+        for(int i=0;i<n;i+=2){
             g1 = __gcd(g1,a[i]);
         }
         for(int i=1; i<n;i+=2){
