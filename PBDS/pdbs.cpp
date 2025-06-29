@@ -23,7 +23,8 @@ int main()
     }
     auto x = p.find_by_order(2); //it will run O(logN)
     // cout<<*x<<endl;
-    int y = p.order_of_key(2); // it will run O(logN);
+    int y = p.order_of_key(8); //koita ase ta
+     // it will run O(logN); 
     cout<<y<<endl;
     for(auto val:p){
         cout<<val <<" ";
